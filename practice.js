@@ -5,11 +5,11 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
-  greeting = 'evening';
+  greeting = 'the evening';
 } else if (hourNow > 12) {
-  greeting = 'afternoon';
+  greeting = 'the afternoon';
 } else if (hourNow >= 0) {
-  greeting = 'morning';
+  greeting = 'the morning';
 } else {
   greeting = 'anytime';
 }
