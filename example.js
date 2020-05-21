@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 // Do over! Starting from scratch here
 
