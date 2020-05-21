@@ -1,5 +1,7 @@
 'use strict'
 
+// This script changes the time of day in the note below hero pic.
+
 var today = new Date();
 var hourNow = today.getHours(); 
 var greeting;
