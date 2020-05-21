@@ -4,7 +4,7 @@
 
 <script>
     function myFunction() {
-        document.getElementById("demo").innerHTML = "All good! There are other options.";
+        document.getElementById("jschange").innerHTML = "All good! There are other options.";
         }
 </script>
 
