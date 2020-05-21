@@ -1,33 +1,6 @@
 'use strict';
 
-// // This is everything I had before thurs afternoon looping discussion. Below is it roger's code from class. 
-// This script will creepily call out the page viewer by name.
-
-
-// // var userName = prompt('What is your name?');
-
-// // document.write('<h3>' + userName + '</h3>');
-
-// function askCode() {
-//     var learncode = prompt('Hello! Do you want to learn how to write code?');
-//     console.log(learncode);
-//     return learncode;
-// }
-
-// function response(learncodeFromFunction){
-//     if (learncodeFromFunction === 'yes'){
-//         alert('Cool! Read on.');
-//     } else if (learncodeFromFunction === 'no'){
-//         alert('Lame. You should reconsider.');
-//     } else {
-//         alert('Does not compute.');
-//     }
-// }
-
-
-
-// var learncodeFromFunction = askCode();
-// var learncodeFromFunction = response;
+// Do over! Starting from scratch here
 
 function askName() {
     var userName = prompt('Hello.  What is your name?');
