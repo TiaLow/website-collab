@@ -1,6 +1,9 @@
 'use strict'
 
-// Do over! Starting from scratch here
+// var rogerName = document.getElementById('roger');
+// var h2element = document.createElement('h2');
+// h2element.textContent = "Hello Roger.  Welcome to the Page";
+// rogerName.appendChild(h2element);
 
 function askName() {
     var userName = prompt('Hello.  What is your name?');
@@ -42,6 +45,12 @@ if (typeOfComputerFromFunction === 'vic-20'){
     var typeOfComputerFromFunction = typeOfComputer();
     likeOldComputers(oldComputerFromFunction)
 
+
+
+
+
+
+    
     var letterAnswer = 'a'
     var guess = 5;
     var letterGuess = prompt('Guess a letter (single letter only)');
