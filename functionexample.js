@@ -28,7 +28,7 @@ function askName(){
 
 function askReady(userName){
     var askReady = prompt(userName + ', are you ready to start coding?') .toLowerCase();
-    while((askReady != 'no') || (askReady != 'yes')){
+    while((askReady == 'no') || (askReady != 'yes')){
        askReady = prompt(userName + ', but...but are you ready to start coding?') .toLowerCase();
     }
     return askReady;
@@ -38,5 +38,5 @@ var userNameFromFunction = askName();
 var askReadyFromFunction = askReady(userNameFromFunction);
 
 
-// At this point, everything above is working.
+// At this point, everything above is working!
 
